@@ -3,7 +3,7 @@
 
 // SWIPER
 
-const swiperReview = new Swiper('.review__swiper', {
+const swiperReview = new Swiper('.review-swiper', {
     slidesPerView: 1,
     spaceBetween: 50,
     
@@ -22,3 +22,38 @@ const swiperReview = new Swiper('.review__swiper', {
 
   }
 });
+
+
+const swiperGrid = new Swiper('.grid__swiper', {
+    slidesPerView: 1,
+    centeredSlides: true,
+
+    spaceBetween: 20,
+    autoHeight: true,
+
+    navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+    },
+
+    // Responsive breakpoints
+    breakpoints: {
+        
+        720: {
+            slidesPerView: 2,
+            centeredSlides: true,
+
+            spaceBetween: 50,
+            autoHeight: true,
+
+            navigation: {
+                nextEl: '.swiper-button-next',
+                prevEl: '.swiper-button-prev',
+            },
+        },
+
+    }
+    
+});
+
+
