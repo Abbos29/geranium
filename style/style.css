@@ -866,12 +866,12 @@ input[type=button]:focus {
 .grid__swiper {
   display: none;
   margin: 40px 0;
+  max-width: 100%;
+  width: 100%;
 }
 @media (max-width: 1100px) {
   .grid__swiper {
     display: block;
-    max-width: 100%;
-    width: 100%;
   }
 }
 .grid__swiper .story__navigations {

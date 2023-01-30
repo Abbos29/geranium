@@ -983,11 +983,11 @@ input[type=button]:focus{
     &__swiper {
         display: none;
         margin: 40px 0;
+        max-width: 100%;
+        width: 100%;
 
         @media (max-width: 1100px) {
             display: block;
-            max-width: 100%;
-            width: 100%;
         }
 
         .story__navigations {
